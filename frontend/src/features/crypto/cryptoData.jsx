@@ -1,0 +1,88 @@
+const cryptoData = [
+  {
+    id: 1,
+    name: 'Bitcoin',
+    symbol: 'BTC',
+    logo: '/images/bitcoin.png', // Path to image in public/images folder
+    price: 93759.48,
+    percentChange1h: 0.43,
+    percentChange24h: 0.93,
+    percentChange7d: 11.11,
+    marketCap: 1861618902186,
+    volume24h: 43874950947,
+    circulatingSupply: 19.85,
+    maxSupply: 21,
+  },
+  {
+    id: 2,
+    name: 'Ethereum',
+    symbol: 'ETH',
+    logo: '/images/ethereum.png', // Path to image in public/images folder
+    price: 4870.21,
+    percentChange1h: 0.21,
+    percentChange24h: 1.2,
+    percentChange7d: 9.87,
+    marketCap: 585429101231,
+    volume24h: 21421521512,
+    circulatingSupply: 120.3,
+    maxSupply: null,
+  },
+  {
+    id: 3,
+    name: 'Tether',
+    symbol: 'USDT',
+    logo: '/images/tether.png', // Path to image in public/images folder
+    price: 1.00,
+    percentChange1h: 0.0,
+    percentChange24h: 0.01,
+    percentChange7d: 0.01,
+    marketCap: 109823456789,
+    volume24h: 45212345678,
+    circulatingSupply: 109.8,
+    maxSupply: null,
+  },
+  {
+    id: 4,
+    name: 'XRP',
+    symbol: 'XRP',
+    logo: '/images/xrp.png', // Path to image in public/images folder
+    price: 0.85,
+    percentChange1h: -0.3,
+    percentChange24h: 0.4,
+    percentChange7d: 5.21,
+    marketCap: 45012345678,
+    volume24h: 4123456789,
+    circulatingSupply: 53.2,
+    maxSupply: 100,
+  },
+  {
+    id: 5,
+    name: 'BNB',
+    symbol: 'BNB',
+    logo: '/images/bnb.png', // Path to image in public/images folder
+    price: 620.35,
+    percentChange1h: 0.55,
+    percentChange24h: 1.12,
+    percentChange7d: 8.45,
+    marketCap: 95781234567,
+    volume24h: 7894561230,
+    circulatingSupply: 157.9,
+    maxSupply: 200,
+  },
+  {
+    id: 6,
+    name: 'Solana',
+    symbol: 'SOL',
+    logo: '/images/solana.png', // Path to image in public/images folder
+    price: 143.12,
+    percentChange1h: 0.33,
+    percentChange24h: -0.4,
+    percentChange7d: 12.23,
+    marketCap: 62012345678,
+    volume24h: 3123456789,
+    circulatingSupply: 435.2,
+    maxSupply: null,
+  },
+];
+
+export default cryptoData;
