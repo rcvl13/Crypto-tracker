@@ -1,8 +1,8 @@
-import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { updateCrypto } from './features/crypto/cryptoSlice';
-import { simulateCryptoUpdates } from './utils/simulateUpdates';
-import CryptoTable from './components/CryptoTable';
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { updateCrypto } from "./features/crypto/cryptoSlice";
+import { simulateCryptoUpdates } from "./utils/simulateUpdates";
+import CryptoTable from "./components/CryptoTable";
 
 function App() {
   const dispatch = useDispatch();
@@ -12,7 +12,7 @@ function App() {
     const interval = setInterval(() => {
       const updatedData = simulateCryptoUpdates(cryptoList);
       dispatch(updateCrypto(updatedData));
-    }, 1500); // every 1.5 seconds
+    }, 1500);
 
     return () => clearInterval(interval);
   }, [cryptoList, dispatch]);

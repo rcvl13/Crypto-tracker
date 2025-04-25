@@ -17,7 +17,7 @@ const cryptoData = [
     id: 2,
     name: 'Ethereum',
     symbol: 'ETH',
-    logo: '/images/ethereum.png', // Path to image in public/images folder
+    logo: '/images/ethereum.png', 
     price: 4870.21,
     percentChange1h: 0.21,
     percentChange24h: 1.2,
@@ -31,7 +31,7 @@ const cryptoData = [
     id: 3,
     name: 'Tether',
     symbol: 'USDT',
-    logo: '/images/tether.png', // Path to image in public/images folder
+    logo: '/images/tether.png',
     price: 1.00,
     percentChange1h: 0.0,
     percentChange24h: 0.01,
@@ -45,7 +45,7 @@ const cryptoData = [
     id: 4,
     name: 'XRP',
     symbol: 'XRP',
-    logo: '/images/xrp.png', // Path to image in public/images folder
+    logo: '/images/xrp.png',
     price: 0.85,
     percentChange1h: -0.3,
     percentChange24h: 0.4,
@@ -59,7 +59,7 @@ const cryptoData = [
     id: 5,
     name: 'BNB',
     symbol: 'BNB',
-    logo: '/images/bnb.png', // Path to image in public/images folder
+    logo: '/images/bnb.png', 
     price: 620.35,
     percentChange1h: 0.55,
     percentChange24h: 1.12,
@@ -73,7 +73,7 @@ const cryptoData = [
     id: 6,
     name: 'Solana',
     symbol: 'SOL',
-    logo: '/images/solana.png', // Path to image in public/images folder
+    logo: '/images/solana.png',
     price: 143.12,
     percentChange1h: 0.33,
     percentChange24h: -0.4,

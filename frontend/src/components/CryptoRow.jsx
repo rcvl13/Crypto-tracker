@@ -1,6 +1,6 @@
 export default function CryptoRow({ crypto, index }) {
   const formatPercent = (value) => (
-    <span style={{ color: value >= 0 ? 'green' : 'red' }}>
+    <span style={{ color: value >= 0 ? "green" : "red" }}>
       {value.toFixed(2)}%
     </span>
   );
@@ -9,8 +9,12 @@ export default function CryptoRow({ crypto, index }) {
     <tr>
       <td>{index}</td>
       <td>
-        {/* Display the image of the cryptocurrency logo */}
-        <img src={crypto.logo} alt={`${crypto.name} Logo`} width="30" height="30" />
+        <img
+          src={crypto.logo}
+          alt={`${crypto.name} Logo`}
+          width="30"
+          height="30"
+        />
       </td>
       <td>{crypto.name}</td>
       <td>{crypto.symbol}</td>
@@ -25,4 +29,3 @@ export default function CryptoRow({ crypto, index }) {
     </tr>
   );
 }
-  

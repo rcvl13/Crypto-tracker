@@ -5,8 +5,6 @@ export const simulateCryptoUpdates = (cryptoList) => {
     const percentChange24h = (Math.random() - 0.5) * 5;
     const percentChange7d = crypto.percentChange7d + (Math.random() - 0.5) * 1;
     const volumeChange = (Math.random() - 0.5) * 500000000;
-
-    // Optionally simulate small circulating supply change (e.g., mining or staking)
     const supplyChange = (Math.random() - 0.5) * 0.05;
     const newCirculatingSupply = Math.max(0.01, crypto.circulatingSupply + supplyChange);
 
